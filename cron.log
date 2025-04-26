@@ -1,0 +1,61 @@
+/bin/sh: 1: /home/vignesh/gittracker/run_tracker.sh: Permission denied
+Traceback (most recent call last):
+  File "/home/vignesh/gittracker/git.py", line 7, in <module>
+    df = pd.read_excel('git.xlsx')  # Ensure this file exists
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vignesh/gittracker/venv/lib/python3.12/site-packages/pandas/io/excel/_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "/home/vignesh/gittracker/venv/lib/python3.12/site-packages/pandas/io/excel/_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vignesh/gittracker/venv/lib/python3.12/site-packages/pandas/io/excel/_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/vignesh/gittracker/venv/lib/python3.12/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'git.xlsx'
+/home/vignesh/gittracker/git.py:14: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  TODAY = datetime.utcnow().date()
+Done—results in gitusers_updated.xlsx
+/home/vignesh/gittracker/git.py:21: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  TODAY = datetime.utcnow().date()
+Traceback (most recent call last):
+  File "/home/vignesh/gittracker/git.py", line 24, in <module>
+    user_tokens = load_tokens('tokens.txt')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vignesh/gittracker/git.py", line 9, in load_tokens
+    with open(file_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'tokens.txt'
+/home/vignesh/gittracker/git.py:21: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  TODAY = datetime.utcnow().date()
+Traceback (most recent call last):
+  File "/home/vignesh/gittracker/git.py", line 24, in <module>
+    user_tokens = load_tokens('tokens.txt')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vignesh/gittracker/git.py", line 9, in load_tokens
+    with open(file_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'tokens.txt'
+/home/vignesh/gittracker/git.py:21: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  TODAY = datetime.utcnow().date()
+Traceback (most recent call last):
+  File "/home/vignesh/gittracker/git.py", line 24, in <module>
+    user_tokens = load_tokens('tokens.txt')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vignesh/gittracker/git.py", line 9, in load_tokens
+    with open(file_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'tokens.txt'
+/home/vignesh/gittracker/git.py:21: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  TODAY = datetime.utcnow().date()
+Traceback (most recent call last):
+  File "/home/vignesh/gittracker/git.py", line 24, in <module>
+    user_tokens = load_tokens('tokens.txt')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vignesh/gittracker/git.py", line 9, in load_tokens
+    with open(file_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'tokens.txt'
